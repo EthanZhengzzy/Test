@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+#crumbs li{
+	list-style: none;
+}
+ #crumbs ul li:first-child a{
+        float: left;
+        margin-right: 10px;
+      
+        position: relative;
+        height: 30px;
+        padding: 10px 20px 10px 20px;
+        text-align: center;
+        background-color: #EDEDED;
+        color: #fff;
+        text-decoration: none; 
+        font-size: 20px;
+    }
+     #crumbs ul li a:after{
+        content: "";
+        border-left: 25px solid #EDEDED;
+        border-top: 25px solid transparent;
+         border-bottom: 25px solid transparent;
+        position: absolute;
+        right: -25px;
+        top: 0;
+        z-index:1;
+
+ 
+    }
+    #crumbs ul li a:before{
+           content: "";
+           border-left:25px solid #fff;
+           border-top: 25px solid transparent;
+           border-bottom: 25px solid transparent;
+           position: absolute;
+           left: 0;
+           top: 0;
+           
+
+    }
+    #crumbs ul li:first-child a:before{
+         display: none;
+
+    }
+ #second{
+        float: left;
+        margin-right: 10px;
+      
+        position: relative;
+        height: 30px;
+        width: 350px;
+        padding: 10px 20px 10px 20px;
+        text-align: center;
+        background-color: #EDEDED;
+        color: #000;
+        text-decoration: none; 
+        font-size: 25px;
+        font-family:verdana;
+        text-align: center;
+    }
+#third{
+          float: left;
+       
+      
+        position: relative;
+        height: 30px;
+        width: 300px;
+        padding: 10px 20px 10px 20px;
+        
+        background-color: #EDEDED;
+        color: #000;
+        text-decoration: none; 
+        font-size: 30px;
+        font-family:华文彩云;
+        font-weight:bold;
+        text-align: center;
+}
+
+
+  #crumbs ul li a:hover{
+            background-color:#999999;
+            color:#fff;
+        }
+
+
+        #crumbs ul li a:hover:after{
+            border-left-color: #999999;
+        }
+
+
+
+        #crumbs ul li a:hover:before{
+            border-top-color: #999999;
+            border-bottom-color: #999999;
+        }
+    
+</style>
+</head>
+<body>
+ <div id="crumbs">
+  <ul>      
+  <li><a href="#"><img src="1.png"></a>
+   <div class="a"> </div>
+
+  </li>
+ <li><a  id="second"  href="#">Wedding Party Dresses&nbsp&nbsp<img src="2.png"></a></li>
+ <li><a id="third" href="#">Bridesmaid Dresses</a></li>
+    </div>
+
+</ul>
+</body>
+</html>
